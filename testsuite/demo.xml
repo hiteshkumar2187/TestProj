@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo Suite" parallel="false" thread-count="1" verbose="1">
+    <test name="Demo Test" preserve-order="false">
+        <classes>
+            <class name="testScripts.EmailTest"/>
+        </classes>
+    </test>
+</suite>
